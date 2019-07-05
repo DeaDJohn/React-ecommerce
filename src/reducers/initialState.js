@@ -1,11 +1,11 @@
 const initialState = {
     productList: {
-        product: [],
+        products: [],
         error: null,
         loading: false
     },
     activeProduct: {
-        product: null,
+        product: [],
         error: null,
         loading: false
     },

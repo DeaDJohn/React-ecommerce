@@ -14,6 +14,7 @@ export default function productListReducer (state = initialState.productList, ac
         case FETCH_PRODUCTS_INIT:
             return {
                 ...state,
+                products: [],
                 error: null,
                 loading: true
             };
